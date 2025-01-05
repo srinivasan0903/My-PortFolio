@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+}
+
+.education-container {
+  padding: 50px 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-container {
+  max-width: 1200px; /* Limit max width for the content */
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  padding: 40px;
+  font-family: 'Perpetua', serif;
+  align-items: center; /* Center align the content */
+  width: 100%;
+}
+
+.education-title {
+  text-align: center;
+  font-size: 36px; 
+  font-weight: 300;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.education-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.education-image {
+  width: 400px; /* Set a fixed size for the image */
+  height: 300px;
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.education-card {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc; /* Add border here */
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 62px;
+  top: 20px; /* Adjust top value */
+  bottom: 79px; /* Adjust bottom value */
+  width: 2px;
+  background-color: #6c63ff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-point {
+  position: absolute;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  background-color: #2d25c8;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+
+.timeline-content {
+  padding-left: 41px;
+  font-family: 'Trebuchet MS', Times, serif;
+}
+
+.education-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: left; 
+}
+
+.education-details {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.education-date {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.view-more {
+  font-size: 14px;
+  color: #6c63ff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s ease;
+}
+
+.view-more:hover {
+  color: #4a42e3;
+}

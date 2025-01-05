@@ -1,0 +1,163 @@
+/* Header styling */
+header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Stick to the top */
+  left: 0; /* Align with the left edge */
+  z-index: 1000; /* Ensure it appears above other content */
+  height: 8%;
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+
+/* header {
+  width: 80%; 
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #f8f9fa; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  z-index: 1000; 
+  height: 8%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 0.5%;
+} */
+
+/* Container for header elements */
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and navigation */
+  padding: 0 200px; /* Padding for spacing */
+}
+
+/* Logo container styling */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px; /* Increased logo size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the navigation list */
+.nav-list {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Align items in a row */
+  gap: 2px; /* Space between buttons */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  align-items: center; /* Center items vertically */
+}
+
+/* Individual list item styling */
+.nav-list li {
+  display: inline; /* Ensure items are inline */
+}
+
+/* Button styling for navigation links */
+.nav-list button {
+  background: none; /* Remove default button background */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 18px; /* Adjust font size */
+  color: #007bff; /* Link color */
+  transition: color 0.3s; /* Smooth transition for hover */
+  font-family: 'Trebuchet MS', Times, serif;
+}
+
+/* Hover effect for navigation links */
+.nav-list button:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for icons within navigation buttons */
+.nav-icon {
+  width: 15px; /* Set the desired width */
+  height: 15px; /* Set the desired height */
+  margin-right: 8px; /* Space between the icon and text */
+  vertical-align: middle; /* Align the image vertically */
+}
+
+/* Add padding to the body to avoid content hiding behind the fixed header */
+body {
+  padding-top: 80px; /* Adjust this value based on header height */
+}
+
+/* Responsive styling for medium screens (tablets) */
+@media (max-width: 768px) {
+  nav {
+    justify-content: center; /* Center align items on smaller screens */
+  }
+
+  .nav-list {
+    gap: 15px; /* Reduce the space between buttons */
+  }
+
+  .nav-list button {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  header {
+    padding: 8px 0; /* Reduce padding for smaller screens */
+  }
+
+  .logo {
+    width: 60px; /* Smaller logo for medium screens */
+  }
+}
+
+/* Responsive styling for small screens (phones) */
+@media (max-width: 480px) {
+  .nav-list {
+    flex-direction: column; /* Stack the buttons vertically on phones */
+    gap: 10px; /* Reduce gap for smaller viewports */
+    align-items: center; /* Center align navigation buttons */
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .nav-list button {
+    font-size: 14px; /* Smaller font size on phones */
+  }
+
+  header {
+    padding: 5px 0; /* Further reduce padding for phones */
+  }
+
+  body {
+    padding-top: 60px; /* Adjust padding to match smaller header height */
+  }
+
+  .logo {
+    width: 50px; /* Smaller logo for phones */
+  }
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  color: #007bff; /* Text color */
+  font-family: 'Trebuchet MS', Times, serif; /* Font style */
+  text-transform: uppercase; /* Optional: make text uppercase */
+}

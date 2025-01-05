@@ -1,0 +1,92 @@
+.experience-section {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px; 
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.experience-heading h1 {
+  text-align: center;
+  font-size: 36px; /* Maintain the font size */
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; /* Reduce the font weight to make it thinner */
+}
+
+.experience-heading h1 {
+  -webkit-text-stroke: 0.3px transparent;
+}
+
+
+.experience-body {
+  display: flex;
+  flex-direction: row; /* Arrange items in a row */
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Spacing between the image and content */
+  max-width: 1200px; /* Limit the maximum width for the section */
+  width: 100%;
+}
+
+.experience-image {
+  flex: 1; /* Allow the image to take up 1 part of the available space */
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right within its container */
+  align-items: center;
+}
+
+.experience-image img {
+  width: 400px; /* Set width for the image */
+  height: 300px; /* Set height for the image */
+  border-radius: 8px; /* Optional: Rounded corners */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.experience-content {
+  flex: 2; /* Allow the content to take up 2 parts of the available space */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Perpetua', serif;
+}
+
+.card-details {
+  color: black;
+  display: grid;
+  gap: 0.2em; /* Reduced gap between content */
+  text-align: left; /* Align text to the left */
+  font-family: 'Trebuchet MS', Times, serif;
+  
+}
+
+.experience-text-title {
+  font-size: 1.5em; /* Keep existing title size */
+  font-weight: bold;
+  margin-bottom: 0.1em; /* Reduced margin for titles */
+}
+
+.compeny-text-title {
+  font-size: 1.5em; /* Keep existing title size */
+  font-weight: bold;
+  margin-bottom: 0.1em; /* Reduced margin for titles */
+  font-style: italic; /* Make the text italic */
+}
+
+
+.text-body {
+  font-size: 20px; /* Adjusted font size for better readability */
+  color: #555;
+  line-height: 1.4; /* Reduced line height for tighter spacing */
+  margin-bottom: 0.5em; /* Reduced margin for body text */
+  font-family: 'Trebuchet MS', Times, serif;
+}

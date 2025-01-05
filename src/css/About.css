@@ -1,0 +1,76 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px; /* Increased padding for both left and right */
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: 'Perpetua', serif;
+}
+
+.about-content {
+  max-width: 1200px; /* Limit max width for the content */
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  padding: 40px;
+  font-family: 'Trebuchet MS', Times, serif;
+  align-items: center; /* Center align the content */
+  width: 100%; /* Ensures the content takes up full width of the container */
+}
+
+.about-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 400px; /* Set a fixed size for the image */
+  height: 300px;
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  font-size: 28px;
+  color: #555;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about-heading h1 {
+  text-align: center;
+  font-size: 36px; 
+  font-weight: 300;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  display: inline-block; /* Ensure the emoji stays inline */
+  animation: shake 0.5s ease-in-out;
+}
+
+.emoji {
+  font-size: 2rem; /* Adjust size if needed */
+  display: inline-block;
+}
