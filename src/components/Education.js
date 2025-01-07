@@ -19,7 +19,7 @@ const EducationSection = () => {
                 <h3 className="education-heading">College Details</h3>
                 <p className="education-details">B.Tech in Information Technology</p>
                 <p className="education-date">Sona College of Technology (2020 – 2024)</p>
-                <p className="education-date">CGPA: 8.10</p>
+                <p className="education-date">CGPA: 8.17</p>
                 {/* <p className="education-date">Sona College of Technology (2020 – 2024)</p> */}
                 {/* <a href="#" className="view-more">View More →</a> */}
               </div>
