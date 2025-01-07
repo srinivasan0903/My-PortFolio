@@ -79,7 +79,7 @@ const Home = () => {
 
           <li className="icon-content">
             <a
-              href="https://drive.google.com/file/d/1sxaIfp3WjWG78mptnO6cBUgHqe_tnC24/view?usp=sharingm"
+              href="https://drive.google.com/file/d/1VPjjaM_9-EHwjjINXvrawt1FFp-9NZ_r/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               data-social="CvIcon"
